@@ -18,7 +18,7 @@ export default function LearningJavaScript() {
         <>
             <div>{person.name}</div>
             <div>{person.address.addressLine1}</div>
-            <div>{person.profiles[1]}</div>
+            <div>{person.profiles[2]}</div>
             <button className="btn btn-primary" onClick={person.printProfile}>
                 Print Profile
             </button>
